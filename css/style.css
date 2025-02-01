@@ -26,8 +26,8 @@
     display: inline-block;
     text-align: justify;
     font-size: 2rem;
-   line-height: 100px;
-   
+    line-height: 100px;
+
     font-family: monospace;
 }
 
@@ -39,7 +39,7 @@
     opacity: 0.7;
     padding: 2px;
     width: 80%;
-    height: 10vh;
+    height: 12vh;
     margin-top: 10px;
     position: relative;
     left: 5%;
@@ -55,7 +55,7 @@
 }
 
 .cls:visited {
- color: #b10404;
+    color: #b10404;
 }
 
 .img_nav {
@@ -102,6 +102,9 @@
         width: 7vh;
         height: 7vh;
     }
+    .cls {
+        height: 12vh;
+    }
     .spn {
         margin-top: 15px;
         font-size: 15px;
@@ -111,7 +114,7 @@
 @keyframes ani {
     0% {
         /* border-top:2px solid #bf1b13; */
-       box-shadow: 0px 3px 5px rgb(28, 225, 10);
+        box-shadow: 0px 3px 5px rgb(28, 225, 10);
     }
     25% {
         box-shadow: 2px 0px 5px rgb(28, 225, 10);
@@ -121,8 +124,8 @@
     }
     75% {
         box-shadow: -2px 2px 5px rgb(28, 225, 10);
-
     }
- 
-    
+    100% {
+        box-shadow: -2px 0px 5px rgb(28, 225, 10);
+    }
 }
