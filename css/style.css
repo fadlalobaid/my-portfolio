@@ -31,6 +31,13 @@
     font-family: monospace;
 }
 
+.wa{
+    display:inline-block;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
 .cls {
     background-color: #8eb69b;
     display: flex;
@@ -103,7 +110,7 @@
         height: 7vh;
     }
     .cls {
-        height: 12vh;
+        height: 7vh;
     }
     .spn {
         margin-top: 15px;
