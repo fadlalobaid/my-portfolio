@@ -1,7 +1,7 @@
 .body1 {
     background-color: #0b2b26;
 }
-.nav1 {
+.nav {
     background-color: #8eb69b;
     width: 90%;
     height: 12vh;
@@ -11,6 +11,36 @@
     border-bottom-left-radius: 15px;
     margin: auto;
 }
+.lin{
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0px 5px 5px #0b2b26;
+}
+ul {
+    list-style-type: none;
+    width: 96vw;
+    margin-right: 11%;
+    overflow: scroll;
+    z-index: 1;
+}
+li {
+  
+
+}
+
+li a {
+ 
+    text-decoration: none;
+    text-wrap: inherit;
+    width: 100vh;
+    height: 50vw;
+    font-family: monospace;
+    font-size: 20px;
+    color: #051f20;
+}
+
 .content {
     background-color: #235347;
     overflow: auto;
@@ -42,11 +72,11 @@
     background-color: #8eb69b;
     display: flex;
     flex-direction: row;
-    overflow: inherit;
+    overflow:auto;
     opacity: 0.7;
     padding: 2px;
-    width: 80%;
-    height: 12vh;
+    width: 50vh;
+    height: 20vh;
     margin-top: 10px;
     position: relative;
     left: 5%;
@@ -54,12 +84,6 @@
     animation: ani 5s infinite linear;
 }
 
-.cls:nth-child(even) {
-    background-color: #6b8172cb;
-
-    position: relative;
-    left: 15%;
-}
 
 .cls:visited {
     color: #b10404;
