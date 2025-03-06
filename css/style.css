@@ -1,163 +1,50 @@
-.body1 {
-    background-color: #0b2b26;
-}
-.nav {
-    background-color: #8eb69b;
-    width: 90%;
-    height: 12vh;
-    padding: 5px;
 
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin: auto;
+   
+.body1{
+    background-color: rgb(81, 83, 84);
 }
-.lin{
-    float: left;
-    text-align: center;
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 0px 5px 5px #0b2b26;
+.navv{
+    background-color: #235347;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-ul {
-    list-style-type: none;
-    width: 96vw;
-    margin-right: 11%;
-    overflow: scroll;
-    z-index: 1;
-}
-li {
-  
-
-}
-
-li a {
- 
-    text-decoration: none;
-    text-wrap: inherit;
-    width: 100vh;
-    height: 50vw;
-    font-family: monospace;
-    font-size: 20px;
-    color: #051f20;
-}
-
 .content {
     background-color: #235347;
     overflow: auto;
-    width: 90%;
+    width: 100%;
     height: 90vh;
     margin: auto;
     margin-top: 10px;
     padding: 7px;
     border-radius: 10px;
 }
-.h2h {
-    color: #0b2b26;
-    display: inline-block;
-    text-align: justify;
-    font-size: 2rem;
-    line-height: 100px;
+.higt{
+    height: 15vw;
+    font-family:monospace;
 
-    font-family: monospace;
 }
 
-.wa{
-    display:inline-block;
-    font-size: 1.5rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-
-.cls {
-    background-color: #8eb69b;
-    display: flex;
-    flex-direction: row;
-    overflow:auto;
-    opacity: 0.7;
-    padding: 2px;
-    width: 50vh;
-    height: 20vh;
-    margin-top: 10px;
-    position: relative;
-    left: 5%;
-    border-radius: 15px;
-    animation: ani 5s infinite linear;
-}
-
-
-.cls:visited {
-    color: #b10404;
-}
-
-.img_nav {
-    width: 10vh;
-    height: 10vh;
-    border-radius: 50%;
-    margin-right: 5px;
-    filter: drop-shadow(1px 5px 5px #0b2b26);
-    opacity: 0.8;
-    float: right;
-}
-.imgw {
-    width: 5vh;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-.spn {
-    color: #000000;
-    font-size: 35px;
-    font-family: monospace;
-    margin-top: 10px;
-    margin-left: 20px;
-    float: right;
-}
 
 .footer {
-    background-color: #8eb69b;
-    width: 90%;
+    background-color: #235347;
+    width: 100%;
     height: 10vh;
     padding: 5px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     margin: auto;
     margin-top: 10px;
 }
-
-@media only screen and (max-width: 600px) {
-    .h2h {
-        position: relative;
-        bottom: 30px;
-        font-size: 90%;
-        
-    }
-    .img {
-        width: 7vh;
-        height: 7vh;
-    }
-    .cls {
-        height: 7vh;
-    }
-    .spn {
-        margin-top: 15px;
-        font-size: 15px;
-    }
-}
-
-@keyframes ani {
-    0% {
-        /* border-top:2px solid #bf1b13; */
-        box-shadow: 0px 3px 5px rgb(28, 225, 10);
-    }
-    25% {
-        box-shadow: 2px 0px 5px rgb(28, 225, 10);
-    }
-    50% {
-        box-shadow: 2px 2px 5px rgb(28, 225, 10);
-    }
-    75% {
-        box-shadow: -2px 2px 5px rgb(28, 225, 10);
-    }
-    100% {
-        box-shadow: -2px 0px 5px rgb(28, 225, 10);
-    }
+@media only screen and (min-width: 500px) {
+  .higt{
+    height: 5vw;
+  }
+  .sizee{
+    font-size: 40px;
+   
+  }
+  .imag{
+    width: 50px;
+    margin-bottom: 20px;
+  }
 }
